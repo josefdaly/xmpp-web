@@ -2,8 +2,9 @@
 var config = {
   name: 'Hackerchat',
   transports: {
-    websocket: 'wss://hackerchat.net/xmpp-websocket',
+    websocket: 'wss://hackerchat.net:7443/ws',
   },
+  service: 'ws://hackerchat.net:7070/ws'
   hasGuestAccess: true,
   hasRegisteredAccess: true,
   anonymousHost: null,
